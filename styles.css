@@ -1,0 +1,120 @@
+/*Master Styles*/
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.nav-wrapper{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 0;
+    position: fixed;
+    right: 0;
+    left:0;
+    z-index:999;
+    background-color: white;
+    
+}
+
+.right-side{
+    display: flex;
+    font-size: 20px;
+}
+
+/*Nav Styles*/
+
+.nav-wrapper > .right-side > div {
+    margin-right: 20px;
+    font-size:0.9em;
+
+
+}
+
+.nav-link-wrapper{
+    height: 30px;
+    border-bottom: 0.5px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+    color: black;
+    font-family: 'Arial', Helvetica, sans-serif;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+.nav-link-wrapper a:hover{
+    border-bottom: black;
+}
+
+/* Home Styles*/
+.home-items-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+
+.home-text-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    text-align: center;
+}
+.subtitle{
+    font-size: 23px;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.body-wrapper{
+    text-align: justify;
+    display: block;
+    padding:30px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+}
+.footer-wrapper{
+    display: flex;
+    background-color:blue;
+
+    justify-content: space-between;
+}
+.left-footer{
+    font-size: 16px;
+    color: white ;
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+.right-footer{
+    display: flex;
+    font-size: 20px;
+}
+
+.footer-wrapper > .right-footer > div {
+    margin-right: 10px;
+    font-size:0.9em;
+
+
+}
+.forms{
+    text-align: center;
+    font-family: "Arial", Helvetica, sans-serif;
+}
